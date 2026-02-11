@@ -29,16 +29,17 @@
     VN = 132
 
 ## Cálculo de Métricas
-### Sensibilidade
+### Sensibilidade = VP / (VP + FN)
     Mede a proporção de casos positivos reais que foram corretamente identificados pelo modelo.
-    ### Sensibilidade = VP / (VP + FN)
+  
     Sensibilidade = 42 / (42 + 18) ≅ 0,7 ou ≅ 70%
 
+### Especificidade = VN / (VN + FP)
+    Mede a proporção de casos negativos reais que foram corretamente identificados pelo modelo.
+    
+    Especificidade = 132 /(132 + 8) ≅ 0,94 ou ≅ 94%
 
+### Acurácia = (VP + VN) / (VP + FN + FP + VN)
+    Mede a proporção total de previsões corretas (tanto positivas quanto negativas) em relação ao número total de casos.
 
-
-
-
-
-
-
+    Acuracia = (42 + 132) / (42 + 18 + 8 + 132) = 174 / 200 = 0,87 ou = 87%
