@@ -29,6 +29,7 @@
     VN = 132
 
 ## Cálculo de Métricas
+
 ### Sensibilidade = VP / (VP + FN)
     Mede a proporção de casos positivos reais que foram corretamente identificados pelo modelo.
   
@@ -43,3 +44,17 @@
     Mede a proporção total de previsões corretas (tanto positivas quanto negativas) em relação ao número total de casos.
 
     Acuracia = (42 + 132) / (42 + 18 + 8 + 132) = 174 / 200 = 0,87 ou = 87%
+
+### Precisão = 42 / (42 + FP)
+    Mede a proporção de previsões positivas que foram realmente corretas.
+
+    Precisao = 42 / (42 + 8) = 0,84 ou 84%
+
+### F-score = 2 * (Precisao * Sensibilidade) / (Precisao + Sensibilidade)
+    É a média harmônica da precisão e da sensibilidade.
+
+    F-score = 2 * (0,84 * 0,7) / (0,84 + 0.7) = 0,58 / 1,54 / ≅ 0,37 ou ≅ 37%
+
+
+
+
